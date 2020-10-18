@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	font-size: 16px;
+}
+
+body {
+	background-color: #f4f1de;
+}
+
+h1 {
+	font-size: 3.3rem;
+	margin: 0 0 2rem;
+	text-align: center;
+	color: #24424e;
+}
+
+.thegame {
+	margin: 0 auto;
+	margin-top: 10%;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #f4f1de;
+	padding: 4rem 3rem;
+}
+
+.thegame .inputarea {
+	text-align: center;
+}
+
+.thegame #helper,
+.thegame .inputarea span {
+	font-family: Arial, sans-serif;
+	color: #24424e;
+}
+.thegame #helper {
+	margin-bottom: 1.5rem;
+	font-size: 2rem;
+	text-align: center;
+}
+.thegame .inputarea span {
+	margin-right: 1rem;
+}
+.thegame input {
+	width: 150px;
+	height: 50px;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 2;
+	border: none;
+}
+
+.thegame input:focus {
+	border: none;
+	outline: none;
+}
+
+.thegame button {
+	width: 200px;
+	height: 50px;
+	margin: 2rem 0 0;
+	background-color: #e63946;
+	border: none;
+	border-radius: 4rem;
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: white;
+	transition: all 0.15s ease;
+}
+
+.thegame button:hover {
+	background-color: #d12f3c;
+	color: white;
+}
+
+.thegame button:focus {
+	outline: none;
+}
+
+.disabled {
+	background-color: rgb(180, 89, 119) !important;
+	filter: brightness(50%);
+}
+
+.reset {
+	background-color: slateblue !important;
+	margin-top: 1rem !important;
+}
+.reset:hover {
+	background-color: rgb(81, 68, 167) !important;
+}
+
+.d-none {
+	display: none;
+}
