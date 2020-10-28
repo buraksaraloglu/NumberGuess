@@ -72,6 +72,7 @@ h1 {
 	font-weight: 500;
 	color: white;
 	transition: all 0.15s ease;
+	cursor: pointer;
 }
 
 .thegame button:hover {
