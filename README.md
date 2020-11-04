@@ -6,8 +6,8 @@ Random numbers are between 0 and 10.
 
 ## How to play?
 * Game is ready to play. So you just need to type your first guess.
-* If your guess is close to target number, it will say "hot".
-* Otherwise, your guess is "cold"
+* If your guess is close to the target number, it will say "hot".
+* Otherwise, your guess is "cold".
 * If you are out of moves, sorry, you need to restart.
 
 Have fun. :slightly_smiling_face:
